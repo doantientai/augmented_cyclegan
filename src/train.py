@@ -218,7 +218,9 @@ def train_model():
                 # visualize current training batch
                 visualize_cycle(opt, real_A, visuals, epoch, epoch_iter/opt.batchSize, train=True)
 
-                dev_data = dev_cycle.next()
+#                 dev_data = dev_cycle.next()
+                dev_data = next(dev_cycle)
+
                 dev_real_A, dev_real_B = Variable(dev_data['A']), Variable(dev_data['B'])
                 dev_prior_z_B = Variable(dev_real_A.data.new(dev_real_A.size(0),
                                                              opt.nlatent, 1, 1).normal_(0, 1))
