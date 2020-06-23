@@ -28,7 +28,8 @@ def make_dataset(dir):
 parser = argparse.ArgumentParser('create numpy data from image folders')
 # parser.add_argument('--root', help='data directory', type=str, default='./edges2shoes')
 
-parser.add_argument('--root', help='data directory', type=str, default='/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2handbags/')
+# parser.add_argument('--root', help='data directory', type=str, default='/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2handbags/')
+parser.add_argument('--root', help='data directory', type=str, default='/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2shoes/')
 
 
 args = parser.parse_args()

@@ -86,10 +86,14 @@ class TrainOptions(object):
         self.parser.add_argument('--checkpoints_dir', type=str, default='./checkpoints/', help='models are saved here')
         self.parser.add_argument('--batchSize', type=int, default=80, help='input batch size')
         
-        ### 001_edges2handbags
-        self.parser.add_argument('--dataroot', type=str, default="/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2handbags/")
-        self.parser.add_argument('--name', type=str, default="001_edges2handbags")
-        
+#         ### 001_edges2handbags
+#         self.parser.add_argument('--dataroot', type=str, default="/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2handbags/")
+#         self.parser.add_argument('--name', type=str, default="001_edges2handbags")
+
+        ### 002_edges2shoes
+        self.parser.add_argument('--dataroot', type=str, default="/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2shoes/")
+        self.parser.add_argument('--name', type=str, default="002_edges2shoes")
+
 
 
         self.initialized = True
