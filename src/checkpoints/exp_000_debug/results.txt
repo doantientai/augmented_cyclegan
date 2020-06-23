@@ -1,0 +1,64 @@
+#training images = 138367
+#test images = 200
+#dev images = 200
+model [AugmentedCycleGAN] was created
+(epoch: 1, iters: 900, time: 0.112) D_A: 0.477 G_A: 0.955 Cyc_A: 0.901 Cyc_z_B: 0.812 KLD_z_B: 0.635 D_B: 0.460 G_B: 0.933 Cyc_B: 0.719 D_z_B: 0.646 P_t_A: 0.023 P_f_A: 0.023 P_t_B: 0.042 P_f_B: 0.034 
+                                    gnorm_G_A_B: 0.345 gnorm_G_B_A: 1.049 gnorm_E_B: 4.666 gnorm_D_B: 1.253 gnorm_D_z_B: 2.270 gnorm_D_A: 1.340 mu_min: -1.119 mu_max: 1.064 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 1800, time: 0.098) D_A: 0.445 G_A: 0.874 Cyc_A: 0.850 Cyc_z_B: 0.811 KLD_z_B: 0.866 D_B: 0.433 G_B: 0.859 Cyc_B: 0.687 D_z_B: 0.628 P_t_A: 0.059 P_f_A: 0.065 P_t_B: 0.075 P_f_B: 0.074 
+                                     gnorm_G_A_B: 0.645 gnorm_G_B_A: 1.920 gnorm_E_B: 3.554 gnorm_D_B: 1.179 gnorm_D_z_B: 2.212 gnorm_D_A: 1.274 mu_min: -1.043 mu_max: 0.997 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 2700, time: 0.098) D_A: 0.419 G_A: 0.785 Cyc_A: 0.783 Cyc_z_B: 0.822 KLD_z_B: 1.498 D_B: 0.410 G_B: 0.796 Cyc_B: 0.507 D_z_B: 0.621 P_t_A: 0.092 P_f_A: 0.114 P_t_B: 0.102 P_f_B: 0.108 
+                                     gnorm_G_A_B: 1.040 gnorm_G_B_A: 1.945 gnorm_E_B: 2.652 gnorm_D_B: 1.124 gnorm_D_z_B: 2.161 gnorm_D_A: 1.211 mu_min: -2.025 mu_max: 1.519 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 3600, time: 0.099) D_A: 0.392 G_A: 0.733 Cyc_A: 0.680 Cyc_z_B: 0.846 KLD_z_B: 2.389 D_B: 0.390 G_B: 0.746 Cyc_B: 0.327 D_z_B: 0.605 P_t_A: 0.126 P_f_A: 0.144 P_t_B: 0.129 P_f_B: 0.137 
+                                     gnorm_G_A_B: 0.778 gnorm_G_B_A: 2.207 gnorm_E_B: 2.175 gnorm_D_B: 1.092 gnorm_D_z_B: 2.110 gnorm_D_A: 1.173 mu_min: -1.934 mu_max: 2.170 logvar_min: 0.000 logvar_max: 0.000 
+
+(epoch: 1, iters: 4500, time: 0.099) D_A: 0.371 G_A: 0.687 Cyc_A: 0.560 Cyc_z_B: 0.860 KLD_z_B: 3.299 D_B: 0.371 G_B: 0.702 Cyc_B: 0.212 D_z_B: 0.600 P_t_A: 0.156 P_f_A: 0.171 P_t_B: 0.155 P_f_B: 0.162 
+                                     gnorm_G_A_B: 0.425 gnorm_G_B_A: 2.389 gnorm_E_B: 2.181 gnorm_D_B: 1.062 gnorm_D_z_B: 2.079 gnorm_D_A: 1.128 mu_min: -2.173 mu_max: 3.119 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 5400, time: 0.099) D_A: 0.354 G_A: 0.644 Cyc_A: 0.441 Cyc_z_B: 0.854 KLD_z_B: 3.703 D_B: 0.354 G_B: 0.660 Cyc_B: 0.189 D_z_B: 0.591 P_t_A: 0.182 P_f_A: 0.198 P_t_B: 0.181 P_f_B: 0.188 
+                                     gnorm_G_A_B: 0.478 gnorm_G_B_A: 2.334 gnorm_E_B: 1.680 gnorm_D_B: 1.028 gnorm_D_z_B: 2.018 gnorm_D_A: 1.077 mu_min: -2.300 mu_max: 2.513 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 6300, time: 0.099) D_A: 0.338 G_A: 0.616 Cyc_A: 0.347 Cyc_z_B: 0.924 KLD_z_B: 3.856 D_B: 0.337 G_B: 0.620 Cyc_B: 0.169 D_z_B: 0.586 P_t_A: 0.206 P_f_A: 0.215 P_t_B: 0.208 P_f_B: 0.213 
+                                     gnorm_G_A_B: 0.455 gnorm_G_B_A: 2.162 gnorm_E_B: 1.719 gnorm_D_B: 0.994 gnorm_D_z_B: 1.980 gnorm_D_A: 1.044 mu_min: -2.390 mu_max: 3.029 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 7200, time: 0.100) D_A: 0.326 G_A: 0.577 Cyc_A: 0.281 Cyc_z_B: 0.911 KLD_z_B: 4.080 D_B: 0.322 G_B: 0.583 Cyc_B: 0.173 D_z_B: 0.580 P_t_A: 0.229 P_f_A: 0.240 P_t_B: 0.234 P_f_B: 0.237 
+                                     gnorm_G_A_B: 1.041 gnorm_G_B_A: 2.309 gnorm_E_B: 1.363 gnorm_D_B: 0.943 gnorm_D_z_B: 1.940 gnorm_D_A: 0.989 mu_min: -2.282 mu_max: 2.722 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 8100, time: 0.100) D_A: 0.314 G_A: 0.548 Cyc_A: 0.234 Cyc_z_B: 0.913 KLD_z_B: 4.231 D_B: 0.309 G_B: 0.546 Cyc_B: 0.172 D_z_B: 0.570 P_t_A: 0.250 P_f_A: 0.259 P_t_B: 0.258 P_f_B: 0.262 
+                                     gnorm_G_A_B: 0.852 gnorm_G_B_A: 1.480 gnorm_E_B: 1.400 gnorm_D_B: 0.896 gnorm_D_z_B: 1.907 gnorm_D_A: 0.940 mu_min: -2.646 mu_max: 2.808 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 9000, time: 0.100) D_A: 0.301 G_A: 0.526 Cyc_A: 0.202 Cyc_z_B: 0.899 KLD_z_B: 4.249 D_B: 0.297 G_B: 0.512 Cyc_B: 0.140 D_z_B: 0.564 P_t_A: 0.274 P_f_A: 0.275 P_t_B: 0.285 P_f_B: 0.285 
+                                     gnorm_G_A_B: 0.330 gnorm_G_B_A: 1.385 gnorm_E_B: 1.396 gnorm_D_B: 0.823 gnorm_D_z_B: 1.910 gnorm_D_A: 0.903 mu_min: -2.677 mu_max: 2.818 logvar_min: 0.000 logvar_max: 0.000 
+
+(epoch: 1, iters: 9900, time: 0.100) D_A: 0.294 G_A: 0.499 Cyc_A: 0.174 Cyc_z_B: 0.890 KLD_z_B: 4.367 D_B: 0.286 G_B: 0.478 Cyc_B: 0.134 D_z_B: 0.553 P_t_A: 0.291 P_f_A: 0.294 P_t_B: 0.311 P_f_B: 0.309 
+                                     gnorm_G_A_B: 0.428 gnorm_G_B_A: 1.191 gnorm_E_B: 1.315 gnorm_D_B: 0.753 gnorm_D_z_B: 1.848 gnorm_D_A: 0.854 mu_min: -2.305 mu_max: 2.639 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 10800, time: 0.101) D_A: 0.284 G_A: 0.480 Cyc_A: 0.154 Cyc_z_B: 0.915 KLD_z_B: 4.602 D_B: 0.278 G_B: 0.450 Cyc_B: 0.143 D_z_B: 0.550 P_t_A: 0.312 P_f_A: 0.307 P_t_B: 0.331 P_f_B: 0.330 
+                                      gnorm_G_A_B: 0.899 gnorm_G_B_A: 1.226 gnorm_E_B: 1.057 gnorm_D_B: 0.715 gnorm_D_z_B: 1.836 gnorm_D_A: 0.815 mu_min: -2.801 mu_max: 3.317 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 11700, time: 0.101) D_A: 0.278 G_A: 0.456 Cyc_A: 0.140 Cyc_z_B: 0.947 KLD_z_B: 4.626 D_B: 0.269 G_B: 0.426 Cyc_B: 0.139 D_z_B: 0.547 P_t_A: 0.328 P_f_A: 0.325 P_t_B: 0.355 P_f_B: 0.348 
+                                      gnorm_G_A_B: 0.351 gnorm_G_B_A: 1.219 gnorm_E_B: 1.007 gnorm_D_B: 0.617 gnorm_D_z_B: 1.810 gnorm_D_A: 0.764 mu_min: -3.096 mu_max: 2.616 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 12600, time: 0.101) D_A: 0.271 G_A: 0.435 Cyc_A: 0.129 Cyc_z_B: 0.926 KLD_z_B: 4.819 D_B: 0.263 G_B: 0.403 Cyc_B: 0.139 D_z_B: 0.540 P_t_A: 0.347 P_f_A: 0.341 P_t_B: 0.376 P_f_B: 0.366 
+                                      gnorm_G_A_B: 0.437 gnorm_G_B_A: 1.026 gnorm_E_B: 0.885 gnorm_D_B: 0.555 gnorm_D_z_B: 1.763 gnorm_D_A: 0.725 mu_min: -3.494 mu_max: 3.159 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 13500, time: 0.101) D_A: 0.266 G_A: 0.411 Cyc_A: 0.116 Cyc_z_B: 0.922 KLD_z_B: 4.535 D_B: 0.257 G_B: 0.389 Cyc_B: 0.125 D_z_B: 0.530 P_t_A: 0.365 P_f_A: 0.359 P_t_B: 0.396 P_f_B: 0.378 
+                                      gnorm_G_A_B: 0.599 gnorm_G_B_A: 1.026 gnorm_E_B: 1.416 gnorm_D_B: 0.511 gnorm_D_z_B: 1.755 gnorm_D_A: 0.650 mu_min: -2.715 mu_max: 2.810 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 14400, time: 0.100) D_A: 0.258 G_A: 0.399 Cyc_A: 0.112 Cyc_z_B: 0.910 KLD_z_B: 4.757 D_B: 0.252 G_B: 0.371 Cyc_B: 0.129 D_z_B: 0.529 P_t_A: 0.384 P_f_A: 0.368 P_t_B: 0.412 P_f_B: 0.392 
+                                      gnorm_G_A_B: 0.348 gnorm_G_B_A: 1.093 gnorm_E_B: 0.946 gnorm_D_B: 0.447 gnorm_D_z_B: 1.724 gnorm_D_A: 0.624 mu_min: -2.893 mu_max: 3.462 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 15300, time: 0.101) D_A: 0.259 G_A: 0.374 Cyc_A: 0.108 Cyc_z_B: 0.904 KLD_z_B: 4.955 D_B: 0.249 G_B: 0.354 Cyc_B: 0.125 D_z_B: 0.518 P_t_A: 0.394 P_f_A: 0.388 P_t_B: 0.423 P_f_B: 0.407 
+                                      gnorm_G_A_B: 0.471 gnorm_G_B_A: 0.669 gnorm_E_B: 0.884 gnorm_D_B: 0.511 gnorm_D_z_B: 1.686 gnorm_D_A: 0.542 mu_min: -3.477 mu_max: 2.700 logvar_min: -0.000 logvar_max: -0.000 
+
+(epoch: 1, iters: 16200, time: 0.101) D_A: 0.252 G_A: 0.358 Cyc_A: 0.102 Cyc_z_B: 0.903 KLD_z_B: 4.763 D_B: 0.247 G_B: 0.342 Cyc_B: 0.133 D_z_B: 0.516 P_t_A: 0.415 P_f_A: 0.402 P_t_B: 0.436 P_f_B: 0.417 
+                                      gnorm_G_A_B: 0.413 gnorm_G_B_A: 0.761 gnorm_E_B: 0.932 gnorm_D_B: 0.380 gnorm_D_z_B: 1.693 gnorm_D_A: 0.479 mu_min: -5.733 mu_max: 4.687 logvar_min: 0.000 logvar_max: 0.000 
+
+(epoch: 1, iters: 17100, time: 0.101) D_A: 0.250 G_A: 0.351 Cyc_A: 0.099 Cyc_z_B: 0.920 KLD_z_B: 5.035 D_B: 0.246 G_B: 0.329 Cyc_B: 0.131 D_z_B: 0.513 P_t_A: 0.423 P_f_A: 0.408 P_t_B: 0.452 P_f_B: 0.428 
+                                      gnorm_G_A_B: 0.456 gnorm_G_B_A: 0.626 gnorm_E_B: 0.843 gnorm_D_B: 0.311 gnorm_D_z_B: 1.674 gnorm_D_A: 0.594 mu_min: -2.941 mu_max: 3.161 logvar_min: 0.000 logvar_max: 0.000 
+
+(epoch: 1, iters: 18000, time: 0.101) D_A: 0.249 G_A: 0.344 Cyc_A: 0.100 Cyc_z_B: 0.909 KLD_z_B: 4.882 D_B: 0.245 G_B: 0.315 Cyc_B: 0.128 D_z_B: 0.502 P_t_A: 0.431 P_f_A: 0.413 P_t_B: 0.456 P_f_B: 0.441 
+                                      gnorm_G_A_B: 0.721 gnorm_G_B_A: 0.910 gnorm_E_B: 1.353 gnorm_D_B: 0.357 gnorm_D_z_B: 1.674 gnorm_D_A: 0.599 mu_min: -3.008 mu_max: 2.996 logvar_min: -0.000 logvar_max: -0.000 
+
