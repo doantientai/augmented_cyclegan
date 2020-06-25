@@ -27,7 +27,7 @@ class TrainOptions(object):
         # data
         self.parser.add_argument('--input_nc', type=int, default=3, help='# of input image channels')
         self.parser.add_argument('--output_nc', type=int, default=3, help='# of output image channels')
-        self.parser.add_argument('--numpy_data', type=int, choices=[0,1], default=1, help='use numpy data instead of default JPEG images')
+#         self.parser.add_argument('--numpy_data', type=int, choices=[0,1], default=1, help='use numpy data instead of default JPEG images')
 
         # exp
         self.parser.add_argument('--seed', type=int, help='manual seed')
@@ -73,7 +73,7 @@ class TrainOptions(object):
         self.parser.add_argument('--lambda_z_B', type=float, default=0.025, help='weight for cycle loss (B -> A -> B)')
 
         # monitoring
-        self.parser.add_argument('--monitor_gnorm', type=bool, default=True, help='flag set to monitor grad norms')
+#         self.parser.add_argument('--monitor_gnorm', type=bool, default=True, help='flag set to monitor grad norms')
         self.parser.add_argument('--display_freq', type=int, default=5000, help='frequency of showing training results on screen')
         self.parser.add_argument('--print_freq', type=int, default=100, help='frequency of showing training results on console')
         self.parser.add_argument('--save_epoch_freq', type=int, default=5, help='frequency of saving checkpoints at the end of epochs')
@@ -84,12 +84,19 @@ class TrainOptions(object):
         
         ### general 
         self.parser.add_argument('--checkpoints_dir', type=str, default='./checkpoints/', help='models are saved here')
-        self.parser.add_argument('--batchSize', type=int, default=80, help='input batch size')
+        self.parser.add_argument('--batchSize', type=int, default=64, help='input batch size')
+        self.parser.add_argument('--monitor_gnorm', type=bool, default=False, help='flag set to monitor grad norms')
+        self.parser.add_argument('--numpy_data', type=int, choices=[0,1], default=0, help='use numpy data instead of default JPEG images')
+
         
         ### 001_edges2handbags
         self.parser.add_argument('--dataroot', type=str, default="/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2handbags/")
         self.parser.add_argument('--name', type=str, default="001_edges2handbags")
-        
+
+#         ### 002_edges2shoes
+#         self.parser.add_argument('--dataroot', type=str, default="/home/jupyter/workdir/TaiDoan/Projects/InfoMUNIT_workshop/Data/edges2shoes/")
+#         self.parser.add_argument('--name', type=str, default="002_edges2shoes")
+
 
 
         self.initialized = True

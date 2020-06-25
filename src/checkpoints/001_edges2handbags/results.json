@@ -1,6 +1,1 @@
-{
-    "best_dev_mse_A": 1.7976931348623157e+308,
-    "best_test_mse_A": 1.7976931348623157e+308,
-    "best_dev_bpp_B": 1.7976931348623157e+308,
-    "best_test_bpp_B": 1.7976931348623157e+308
-}
+"{'best_dev_mse_A': 0.017870205, 'best_test_mse_A': 0.017611463, 'best_dev_bpp_B': 6.36174, 'best_test_bpp_B': 6.4255824}"

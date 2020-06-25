@@ -155,7 +155,7 @@ class Edges2Shoes(object):
         if subset in ['dev', 'train']:
             self.dir_A = os.path.join(self.root, 'trainA')
             self.dir_B = os.path.join(self.root, 'trainB')
-        elif subset == 'val':  # test set
+        elif subset == 'test':  # test set
             self.dir_A = os.path.join(self.root, 'testA')
             self.dir_B = os.path.join(self.root, 'testB')
         else:
@@ -167,7 +167,7 @@ class Edges2Shoes(object):
         # shuffle data
         rand_state = random.getstate()
         random.seed(123)
-        indx = range(len(self.A_paths))
+        indx = list(range(len(self.A_paths)))
         random.shuffle(indx)
         self.A_paths = [self.A_paths[i] for i in indx]
         self.B_paths = [self.B_paths[i] for i in indx]
@@ -228,7 +228,7 @@ class DataLoader(object):
             self.dataset,
             batch_size=batchSize,
             shuffle=shuffle,
-            num_workers=int(opt.nThreads),
+            num_workers=int(4),
             drop_last=drop_last)
 
     def load_data(self):

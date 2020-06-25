@@ -23,7 +23,7 @@ def save_results(expr_dir, results_dict):
     # save to results.json (for cluster exp)
     fname = os.path.join(expr_dir, 'results.json')
     with open(fname, 'w') as f:
-        json.dump(results_dict, f, indent=4)
+        json.dump(str(results_dict), f, indent=4)
 
 
 def copy_scripts_to_folder(expr_dir):
